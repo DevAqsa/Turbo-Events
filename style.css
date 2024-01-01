@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* header styling  */
+
+.navbar{
+    height:80px ;
+    background-color: #fff;
+    color: #584d66;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo{
+    color: #584d66;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 60px;
+    padding: 0 30px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 60px;
+    width: 50%;
+    
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #00ac97;
+    font-size: 1.2rem;
+    color: #000;
+    border: none;
+    
+}
+
+
+/* hero section stylig */
+
+.hero{
+    background-image:url("./assets/event-img.jpg");
+    height: 484px;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.hero-content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 157px;
+}
+
+.hero-content h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: #000;
+}
+
+.hero button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    margin-left: 510px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000;
+    margin-top: 20px;
+}
+
+
+/* about-section styling  */
+
+.about-event{
+    display: flex;
+    margin-top: 100px;
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+    margin: 0 40px 0 70px;
+    
+    
+}
+
+.about-content{
+    width: 50%;
+    height: 100%;
+    margin: 0 40px 0 -40px;
+}
+
+.about-content h1{
+    font-size: 2.5rem;
+    color: #000;
+    margin-top: 50px;
+}
+
+.about-content p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.about-content button{
+    margin-top: 30px;
+}
+
+/* about-organizers */
+
+
+.about-content org{
+        padding: 0 0 0 -90px;
+}
+
+.sponsors h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 70px;
+}
+
+
+/* speakers cards */
+
+.spk-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.box{
+   /* border: 2px solid black; */
+   height: 200px;
+   width: 20%;
+
+   
+}
+
+.speakers-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.spk-img{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+   
+}
+
+
+/* revewies-section{ */
+   
+.rev-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.rev-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.main{
+  
+    height: 150px;
+    width: 330px;
+   padding: 20px;
+
+}
+
+.main-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.display p {
+        margin-left: 15px;
+}
+
+
+/* get in touch section  */
+
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-top: 150px; */
+    padding: 80px 40px 65px;
+}
+
+.one{
+    height: 217px;
+    width: 345px;
+}
+
+.one h1{
+    margin-bottom: 50px;
+
+}
+
+
+.one p{
+    margin: 0 0 15px;
+    height: 40px;
+
+}
+
+.one i {
+    margin-right: 10px;
+    color: #00ac97;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+
+/* two-section */
+
+
+.two{
+    height: 217px;
+    width: 345px;
+}
+
+.frm{
+    display: flex;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+.two button{
+    margin-left: 12px;
+    margin-bottom: 80px;
+    
+}
+
+.frm1{
+    height: 46px;
+    width: 341px;
+}
+
+
+/* footer styling  */
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px;
+    margin-top: 80px;
+}
